@@ -10,7 +10,9 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
+            AnotherClass anotherClass = new AnotherClass("John", 23);
+            Console.WriteLine("Hello " + anotherClass.Name +"!");
+
             Console.ReadKey();
         }
     }

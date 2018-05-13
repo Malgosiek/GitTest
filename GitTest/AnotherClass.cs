@@ -8,11 +8,25 @@ namespace GitTest
 {
     public class AnotherClass
     {
-        private string _name { get; set; }
+        private string _name;
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
 
-        public AnotherClass(string name)
+        private int _age;
+        public int Age
+        {
+            get { return _age; }
+            set { _age = value; }
+        }
+
+
+        public AnotherClass(string name, int age)
         {
             _name = name;
+            _age = age;
         }
     }
 }
