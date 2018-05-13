@@ -26,7 +26,7 @@ namespace GitTest
         public AnotherClass(string name, int age)
         {
             _name = name;
-            _age = age;
+            _age = age + 18;
         }
     }
 }
